@@ -1,7 +1,16 @@
+import { useNavigate } from "react-router-dom";
+
 function PostCard(props) {
-  const { image, title, description, category } = props;
+  const { image, title, description, category, link } = props;
+  const navigate = useNavigate();
+
   return (
-    <div class="card w-96 bg-base-100 shadow-xl">
+    <div
+      class="card w-96 bg-base-100 shadow-xl transition ease-in-out duration-150 hover:shadow-lg"
+      onClick={() => {
+        navigate(link);
+      }}
+    >
       <figure>
         <img
           src={

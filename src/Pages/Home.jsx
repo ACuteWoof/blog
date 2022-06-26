@@ -24,6 +24,7 @@ function Home() {
             title={post.title}
             description={post.content}
             category={post.category}
+            link={`/view/${post.loc}`}
           />
         ))}
       </div>
