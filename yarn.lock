@@ -4934,7 +4934,7 @@ ignore@^5.2.0:
   resolved "https://registry.yarnpkg.com/ignore/-/ignore-5.2.0.tgz#6d3bac8fa7fe0d45d9f9be7bac2fc279577e345a"
   integrity sha512-CmxgYGiEPCLhfLnpPp1MoRmifwEIOgjcHXxOBjv7mY96c+eWScsOP9c112ZyLdWHi0FxHjI+4uVhKYp/gcdRmQ==
 
-immer@^9.0.7:
+immer@>=6.0.3, immer@^9.0.7:
   version "9.0.15"
   resolved "https://registry.yarnpkg.com/immer/-/immer-9.0.15.tgz#0b9169e5b1d22137aba7d43f8a81a495dd1b62dc"
   integrity sha512-2eB/sswms9AEUSkOm4SbV5Y7Vmt/bKRwByd52jfLkW4OLYeaTP3EEiJ9agqU0O/tq6Dk62Zfj+TJSqfm1rLVGQ==
@@ -8380,6 +8380,13 @@ stackframe@^1.3.4:
   version "1.3.4"
   resolved "https://registry.yarnpkg.com/stackframe/-/stackframe-1.3.4.tgz#b881a004c8c149a5e8efef37d51b16e412943310"
   integrity sha512-oeVtt7eWQS+Na6F//S4kJ2K2VbRlS9D43mAlMyVpVWovy9o+jfgH8O9agzANzaiLjclA0oYzUXEM4PurhSUChw==
+
+state-pool@^0.7.1:
+  version "0.7.1"
+  resolved "https://registry.yarnpkg.com/state-pool/-/state-pool-0.7.1.tgz#a46a4fe10ff405c99a2bd27d2dcbc5942cb3cfb0"
+  integrity sha512-216KQC0Aos0q9VHQUzgJtCntFk2gSXgXs36aDJ9iCFswieKPf9o55wwDH2fdl9H2MM1CUfdv32cSLgv2mBBpMQ==
+  dependencies:
+    immer ">=6.0.3"
 
 statuses@2.0.1:
   version "2.0.1"

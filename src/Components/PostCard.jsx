@@ -6,7 +6,7 @@ function PostCard(props) {
 
   return (
     <div
-      class="card w-96 bg-base-100 shadow-xl transition ease-in-out duration-150 hover:shadow-lg"
+      class="card w-96 bg-base-200 shadow-xl transition ease-in-out duration-150 hover:shadow-lg"
       onClick={() => {
         navigate(link);
       }}

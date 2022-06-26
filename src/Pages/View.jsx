@@ -32,7 +32,7 @@ function View() {
         margin: "3rem 0",
       }}
     >
-      <article class="prose prose-a:text-blue-600">
+      <article class="prose">
         {err === 404 ? (
           <h1>404: Not Found</h1>
         ) : (
