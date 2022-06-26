@@ -18,7 +18,7 @@ function Navbar() {
         </a>
       </div>
       <div class="flex-1">
-        <a href="/blog" className="btn btn-ghost normal-case text-xl">
+        <a href="/" className="btn btn-ghost normal-case text-xl">
           Home
         </a>
       </div>

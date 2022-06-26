@@ -36,10 +36,10 @@ function App() {
       <div style={{ minHeight: "100vh", margin: 0 }}>
         <Navbar />
         <>
-          <BrowserRouter>
+          <BrowserRouter basename={process.env.PUBLIC_URL}>
             <Routes>
-              <Route path="/blog" element={<Home />} />
-              <Route path="/blog/view/:id" element={<View />} />
+              <Route path="/" element={<Home />} />
+              <Route path="/view/:id" element={<View />} />
             </Routes>
           </BrowserRouter>
         </>
