@@ -9,12 +9,10 @@ function View() {
   const [err, setErr] = useState(null);
 
   useEffect(() => {
-    console.log(id);
     const post = fetch(
       `https://raw.githubusercontent.com/ACuteWoof/blog-md/main/posts/${id}.md`
     ).then((res) => res.text());
     post.then((data) => {
-      console.log(data);
       if (data === "404: Not Found") {
         setErr(404);
       }
