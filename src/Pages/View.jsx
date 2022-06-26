@@ -28,7 +28,7 @@ function View() {
         margin: "3rem 1rem",
       }}
     >
-      <article class="prose">
+      <article class="prose prose-h1:text-center prose-img:rounded-md text-justify">
         {err === 404 ? (
           <h1>404: Not Found</h1>
         ) : (
