@@ -1,4 +1,3 @@
-import { useState } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Navbar from "./Components/Navbar";
 import Home from "./Pages/Home";
@@ -30,7 +29,7 @@ store.persist({
 store.setState("theme", "garden", persist);
 
 function App() {
-  const [theme, setTheme] = store.useState("theme");
+  const [theme] = store.useState("theme");
 
   return (
     <div data-theme={theme}>

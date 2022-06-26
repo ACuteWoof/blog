@@ -1,7 +1,7 @@
 import store from "../store";
 
 function Navbar() {
-  const [theme, setTheme] = store.useState("theme");
+  const [, setTheme] = store.useState("theme");
   const themes = ["garden", "forest"];
 
   return (

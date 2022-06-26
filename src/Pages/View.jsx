@@ -8,8 +8,6 @@ function View() {
   const [post, setPost] = useState("");
   const [err, setErr] = useState(null);
 
-  const navigate = useNavigate();
-
   useEffect(() => {
     console.log(id);
     const post = fetch(
@@ -22,7 +20,7 @@ function View() {
       }
       setPost(data);
     });
-  }, []);
+  }, [id]);
 
   return (
     <div
