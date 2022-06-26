@@ -25,7 +25,7 @@ function View() {
       style={{
         display: "flex",
         justifyContent: "center",
-        margin: "3rem 0",
+        margin: "3rem 1rem",
       }}
     >
       <article class="prose">
