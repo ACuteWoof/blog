@@ -26,7 +26,7 @@ store.persist({
   },
 });
 
-store.setState("theme", "garden", persist);
+store.setState("theme", "lofi", persist);
 
 function App() {
   const [theme] = store.useState("theme");

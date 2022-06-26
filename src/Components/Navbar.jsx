@@ -2,7 +2,7 @@ import store from "../store";
 
 function Navbar() {
   const [theme, setTheme] = store.useState("theme");
-  const themes = ["garden", "forest"];
+  const themes = ["lofi", "black"];
 
   return (
     <nav className="navbar bg-base-100 shadow-lg">
@@ -34,7 +34,7 @@ function Navbar() {
           }
           <svg
             class={
-              (theme === "garden" ? "swap-on" : "swap-off") +
+              (theme === themes[0] ? "swap-on" : "swap-off") +
               " fill-current w-10 h-10"
             }
             xmlns="http://www.w3.org/2000/svg"
@@ -48,7 +48,7 @@ function Navbar() {
           }
           <svg
             class={
-              (theme === "forest" ? "swap-on" : "swap-off") +
+              (theme === themes[1] ? "swap-on" : "swap-off") +
               " fill-current w-10 h-10"
             }
             xmlns="http://www.w3.org/2000/svg"
