@@ -18,7 +18,7 @@ export default function Home({ allPostsData }: { allPostsData: any }) {
       <section>
         <div className="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
           <div className="mx-auto max-w-screen-sm text-center lg:mb-16 mb-8">
-            <h2 className="mb-4 text-3xl lg:text-4xl tracking-tight font-extrabold text-slate-900 dark:text-white">Vithushan's Blog</h2>
+            <h2 className="mb-4 text-3xl lg:text-4xl tracking-tight font-extrabold text-slate-900 dark:text-white">Vithushan&apos;s Blog</h2>
             <p className="font-light text-slate-500 sm:text-xl dark:text-slate-400 mb-6">
               A blog about my life, my thoughts, and my projects.
             </p>
