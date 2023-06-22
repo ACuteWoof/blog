@@ -1,6 +1,6 @@
 ---
 title: "How I Get FLACs For Entire Playlists"
-date: "2023-05-21"
+date: "2023-06-21"
 description: "tidal-tdl and Tidal's free trial for the hifi plus plan are a godsend for anyone who's looking for FLACs but can't afford them"
 author: "ACuteWoof"
 authorPfpUrl: "https://github.com/acutewoof.png"
