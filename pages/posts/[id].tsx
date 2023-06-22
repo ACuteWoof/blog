@@ -3,6 +3,12 @@ import Links from '../links'
 
 export default function Post({ postData }: { postData: any }) {
     return (
+        <>
+            <title>{postData.title}</title>
+            <meta name="description" content={postData.description} />
+            <meta property="og:title" content={postData.title} />
+            <meta property="og:description" content={postData.description} />
+
         <main className="min-h-screen bg-hero dark:bg-hero-dark
         py-8 flex flex-col justify-center relative overflow-hidden lg:py-12
         ">
@@ -18,7 +24,7 @@ export default function Post({ postData }: { postData: any }) {
             </div>
 
         </main >
-
+</>
     )
 }
 
